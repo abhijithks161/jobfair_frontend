@@ -1,0 +1,193 @@
+body {
+  margin: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#employerButton {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#jobseekerButton {
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+.coverphoto {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 500px;
+  line-height: 1.4;
+  color: white;
+}
+
+.flex-container-parent {
+  width: 98.9vw;
+}
+
+.flex-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* slideshow */
+
+.slide-container {
+  width: 45%;
+}
+
+.each-slide>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.image-container img {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 200px;
+}
+
+#card-id {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* image upload sidenav */
+body {
+  background: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+}
+.profile-img-container {
+  max-width: 960px;
+  margin: 10px auto;
+  padding: 20px;
+  margin-top: -22px;
+}
+
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin: 12px;
+}
+.avatar-upload .avatar-edit {
+  position: absolute;
+  right: 12px;
+  z-index: 1;
+  top: 10px;
+}
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit input + label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+  background: #f1f1f1;
+  border-color: #d6d6d6;
+}
+.avatar-upload .avatar-edit input + label:after {
+  content: "\f040";
+  font-family: 'FontAwesome';
+  color: #757575;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.avatar-upload .avatar-preview {
+  width: 192px;
+  height: 192px;
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #F8F8F8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  
+
+}
+.avatar-upload .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.drawer-list-tem{
+  color:grey;
+}
+
+/* toolbar */
+.toolbar{
+  background-color:#3bafda;
+  justify-content: space-between;
+}
+/* User Home Page*/
+
+.locationDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.locationIcon {
+  width: 25px;
+  height: 25px;
+  margin-top: 22px;
+  margin-bottom: auto;
+  margin-left: 0px;
+}
+
+.body-container{
+  min-height: 100vh;
+}

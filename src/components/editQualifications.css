@@ -1,0 +1,16 @@
+.editQualificationForm{
+    background: #f7f6f6;
+    padding: 15px;
+    border: 1px solid #dedede;
+    border-top: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 19px;
+}
+
+.halfWidthFields{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+}

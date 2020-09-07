@@ -1,0 +1,21 @@
+.instituteName {
+    font-style: bold;
+    font-size: 14px;
+}
+
+.qualification {
+    border-bottom: 3px dotted rgb(207, 202, 202);
+    margin: auto;
+}
+
+.qualificationHeading {
+    
+    margin-bottom: 0;
+}
+
+#addButton {
+    flex: '1';
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-right: -14px;
+}
